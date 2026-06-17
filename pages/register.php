@@ -62,8 +62,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         
         <div class="auth-logo">
             <a href="<?= $base_path ?>index.php" class="auth-logo-text">
-                <span class="badge" style="background: linear-gradient(135deg, var(--secondary-color), #500018); border: 1px solid rgba(255, 255, 255, 0.2); border-radius: 10px; padding: 10px;"><i class="fa-solid fa-music"></i></span>
-                <span class="ms-2">Yuk<span class="logo-text-highlight">Band!</span></span>
+                <img src="<?= $base_path ?>assets/LogoYukBand.png" alt="YukBand! Logo" height="40" class="d-inline-block align-top">
             </a>
         </div>
         
