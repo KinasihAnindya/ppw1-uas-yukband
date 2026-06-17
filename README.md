@@ -24,3 +24,23 @@ Tersedia dua jenis studio yaitu Solo Space dan Jam Space.
 |-------|----------------|-----------|
 | Admin | admin_yukband  | admin123  |
 | User  | anin           | anin123   |
+
+# Screenshots
+![Beranda](screenshots/beranda.png)
+
+![Login](screenshots/login.png)
+
+![Pilih Studio](screenshots/pilihstudio.png)
+
+![Pesan Studio](screenshots/pesanstudio.png)
+
+![Reservasi Saya](screenshots/reservasisaya.png)
+
+![Reservasi Studio](screenshots/reservasistudio.png)
+
+![Kelola Studio](screenshots/kelolastudio.png)
+
+![Dashboard Admin 1](screenshots/dashboardadmin1.png)
+![Dashboard Admin 2](screenshots/dashboardadmin2.png)
+
+![Mobile](screenshots/mobile.png)
