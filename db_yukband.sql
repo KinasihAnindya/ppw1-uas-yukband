@@ -5,7 +5,7 @@ USE yukband;
 CREATE TABLE user (
     id_user INT AUTO_INCREMENT PRIMARY KEY,
     username VARCHAR(50) NOT NULL UNIQUE,
-    password VARCHAR(50) NOT NULL,
+    password VARCHAR(255) NOT NULL,
     role ENUM('admin', 'user') NOT NULL DEFAULT 'user',
     email VARCHAR(255),
     created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
@@ -70,7 +70,7 @@ INSERT INTO studio (nama_studio, tipe_studio, harga, deskripsi) VALUES
 
 INSERT INTO user (username, password, role, email) VALUES
 ('admin_yukband', 'admin123', 'admin', 'adminyukband@gmail.com'),
-('anin', 'anin123', 'user', 'exampleanindya@gmail.com');
+('anin', 'anin123', 'user', 'exampleanindya@gmail.com'),
 ('pandu', 'pandu123', 'user', 'examplepandu@gmail.com');
 
 -- Fungsi 1: Menghitung Total Sewa Studio
